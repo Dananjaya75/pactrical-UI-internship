@@ -1,0 +1,37 @@
+.wallimage{
+    background-image: url('../assets/wall.jpg');
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+    width: 100%;
+    padding: 70px;
+    align-content: end;
+  
+}
+.content{
+   
+   position: absolute;
+    top: 25%;
+    right: 200px;  
+    width: 400px;
+   
+}
+
+.content p{
+align-content: left;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.shopnow{
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.shopnow:hover{
+    background-color: darkorange;
+    scale: 1.5;
+}
+
