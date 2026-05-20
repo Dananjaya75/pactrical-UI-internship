@@ -1,0 +1,36 @@
+.valentine-image{
+    width: 500px;
+}
+
+.valentine-container{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    
+    margin-top: 50px;
+    align-content: space-around;
+}
+.valentine-text{
+    width: 600px;
+  
+     
+     
+}
+
+.valentine-text h1{
+    font-size: 40px;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+.valentine-text ul{
+    align-items: start;
+    padding: 20px;
+    flex-direction: column;
+}
+.valentine-text ul li{
+    list-style: square;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}

@@ -25,3 +25,9 @@
     height:180px;
     object-fit: cover;
 }
+
+.products-container li.active{
+    font-weight: bold;
+    color: #ff4081;
+    text-decoration: underline;
+}
