@@ -8,7 +8,7 @@
  function Navigation() {
    return (
  <div className='nav'>
-  <img src={menue} alt="" claasName='menue'/>
+  <img src={menue} alt="" className='menue'/>
       <ul>
 
         <li><img src={logo} alt="Logo" className='logo'  /></li>
