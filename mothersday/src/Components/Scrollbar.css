@@ -17,3 +17,25 @@
     height: 50px;
     width: 50px;
 }
+@media screen and (max-width: 768px){
+
+  .scrollbar{
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scrollbar-thumb{
+    width: 150px;
+    height: 80px;
+  }
+
+  .icons{
+    width: 40px;
+    height: 40px;
+  }
+
+}

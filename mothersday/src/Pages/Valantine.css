@@ -34,3 +34,36 @@
     margin-bottom: 10px;
     color: #333;
 }
+
+@media screen and (max-width: 768px){
+
+    .valentine-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .valentine-image{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .valentine-text{
+        width: 100%;
+    }
+
+    .valentine-text h1{
+        font-size: 28px;
+    }
+
+    .valentine-text ul{
+        padding: 10px;
+    }
+
+    .valentine-text ul li{
+        font-size: 16px;
+        text-align: left;
+    }
+
+}
