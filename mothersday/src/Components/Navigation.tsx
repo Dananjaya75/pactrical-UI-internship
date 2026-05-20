@@ -4,9 +4,11 @@
     import login from '../assets/login.jpg'
     import shoppingbag from '../assets/shopping.png'
     import drop from '../assets/dropdown-arrow.svg'
+    import menue from '../assets/menue.jpg'
  function Navigation() {
    return (
  <div className='nav'>
+  <img src={menue} alt="" claasName='menue'/>
       <ul>
 
         <li><img src={logo} alt="Logo" className='logo'  /></li>

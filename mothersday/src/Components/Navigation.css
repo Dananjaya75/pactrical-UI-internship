@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.menue{
+    display: none;
+}
 .nav{
     height: 60px;
     background-color: #f8f8f8;
@@ -56,6 +59,12 @@ ul li{
    
 }
 @media screen and (max-width: 768px){
+    .menue{
+        display: block;
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
 
     .footer{
         flex-direction: column;
@@ -100,6 +109,9 @@ ul li{
     .footer3{
         flex-direction: column;
         gap: 10px;
+    }
+    ul li{
+        display: none;
     }
 
 }
