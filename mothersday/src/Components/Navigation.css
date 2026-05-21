@@ -149,5 +149,13 @@ ul li{
    padding: 5px;
     background: none;
 }
-
+#cart-count{
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+}
 }
