@@ -58,6 +58,16 @@ ul li{
 
    
 }
+
+#cart-count{
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+}
 @media screen and (max-width: 768px){
       .nav .menue{
         display: flex;

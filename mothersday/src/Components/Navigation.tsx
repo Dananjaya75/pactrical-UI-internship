@@ -25,6 +25,7 @@
         <input type="text" name="search" id="searchbar" placeholder="Search our store" /><img src={search} alt="" className='icons' />
       <img src={login} alt="" className='icons' />
       <img src={shoppingbag} alt="" className='icons' />
+      <span class="cart-badge" id="cart-count">3</span>
      </div>
 
    )
