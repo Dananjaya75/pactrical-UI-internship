@@ -9,6 +9,7 @@ import FeaturedItem from './Pages/FeaturedItem'
 import Expert from './Pages/expert'
 import Blog from './Components/Blog'
 import Join from './Components/Join'
+import Banner from './Components/Banner'
 
 
 
@@ -23,6 +24,7 @@ function App() {
     <Products></Products>
     <Valantine></Valantine>
     <FeaturedItem></FeaturedItem>
+    <Banner></Banner>
     <Expert></Expert>
     <Blog></Blog>
     <Join></Join>

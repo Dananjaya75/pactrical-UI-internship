@@ -1,0 +1,9 @@
+.banner{
+    background-color: lightgray;
+}
+
+.banner-image{
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+}
