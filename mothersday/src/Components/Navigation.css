@@ -112,7 +112,7 @@ ul li{
         gap: 10px;
     }
     ul li{
-        display: none;
+        display: flex;
     }
 
      .nav-menu {
