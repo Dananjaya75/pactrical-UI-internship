@@ -134,4 +134,10 @@ ul li{
         margin-bottom: 15px;
     }
 
+    .icons{
+    height: 25px;
+   padding: 5px;
+    background: none;
+}
+
 }
