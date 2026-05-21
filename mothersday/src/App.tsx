@@ -8,6 +8,7 @@ import Valantine from './Pages/Valantine'
 import FeaturedItem from './Pages/FeaturedItem'
 import Expert from './Pages/expert'
 import Blog from './Components/Blog'
+import Join from './Components/Join'
 
 
 
@@ -24,6 +25,7 @@ function App() {
     <FeaturedItem></FeaturedItem>
     <Expert></Expert>
     <Blog></Blog>
+    <Join></Join>
     <Footer></Footer>
 
 
