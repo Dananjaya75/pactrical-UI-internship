@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 import Valantine from './Pages/Valantine'
 import FeaturedItem from './Pages/FeaturedItem'
 import Expert from './Pages/expert'
+import Blog from './Components/Blog'
 
 
 
@@ -22,6 +23,7 @@ function App() {
     <Valantine></Valantine>
     <FeaturedItem></FeaturedItem>
     <Expert></Expert>
+    <Blog></Blog>
     <Footer></Footer>
 
 
