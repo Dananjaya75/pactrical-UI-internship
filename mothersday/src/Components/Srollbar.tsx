@@ -1,8 +1,6 @@
  import './Scrollbar.css'
- import delivery from '../assets/freedel.png'
- import online from '../assets/online.jpg'
- import fresh from '../assets/frsh.jpg'
- import artist from '../assets/artist.jpg'
+ import { delivery,online,fresh,artist} from "./Assets.tsx";
+ 
 function Scrollbar() {
   return (
     <div className="scrollbar">
@@ -42,14 +40,8 @@ function Scrollbar() {
              <h3>Made by Artist </h3>
               <p>World for all made by artists orders over now </p>
 
-        </div>
-      
+        </div>  
       </div> 
-      
-
-
-     
-
     </div>
   );
 }

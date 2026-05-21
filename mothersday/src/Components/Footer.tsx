@@ -1,14 +1,5 @@
 import "./Footer.css";
-import logo from "../assets/logo.jpg";
-import ficon from "../assets/facebook.jpg";
-import gicon from "../assets/gmail.png";
-import ticon from "../assets/twitter.png";
-import yicon from "../assets/ytube.png";
-import visa from "../assets/visa.png";
-import maser from "../assets/master.jpg";
-import skril from "../assets/skrill.jpg";
-import pay from "../assets/pay.jpg";
-
+import {  ficon,gicon, ticon,yicon, logo,visa,maser, skril, pay,} from "./Assets.tsx";
 function Footer() {
   return (
     <>

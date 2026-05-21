@@ -1,4 +1,4 @@
-import bannerImage from '../assets/smile.jpg'
+import {bannerImage} from './Assets'
 import './Banner.css'
 function Banner(){
     return(
