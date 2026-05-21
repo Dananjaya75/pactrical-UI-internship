@@ -5,11 +5,15 @@
     import shoppingbag from '../assets/shopping.png'
     import drop from '../assets/dropdown-arrow.svg'
     import menue from '../assets/menue.jpg'
+    import { useState } from "react"
+    
  function Navigation() {
+   const [open, setOpen] = useState(false)
+
    return (
  <div className='nav'>
-  <img src={menue} alt="" className='menue'/>
-      <ul>
+  <img src={menue} alt="" className='menue' onClick={() => setOpen(!open)}/>
+      <ul className={open ? "nav-menu active" : "nav-menu"}>
 
         <li><img src={logo} alt="Logo" className='logo'  /></li>
         <li>Home</li>

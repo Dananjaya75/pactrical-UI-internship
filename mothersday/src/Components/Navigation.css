@@ -59,11 +59,12 @@ ul li{
    
 }
 @media screen and (max-width: 768px){
-    .menue{
-        display: block;
+      .nav .menue{
+        display: flex;
         height: 30px;
         width: 30px;
         margin-right: 20px;
+        cursor: pointer;
     }
 
     .footer{
@@ -112,6 +113,25 @@ ul li{
     }
     ul li{
         display: none;
+    }
+
+     .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #f8f8f8;
+        padding: 20px;
+    }
+     .nav-menu.active {
+        display: flex;
+       color: black;
+    }
+    .nav-menu li{
+        display: flex;
+        margin-bottom: 15px;
     }
 
 }
